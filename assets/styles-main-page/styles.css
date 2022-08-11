@@ -1,0 +1,19 @@
+/* * body */
+
+/* Main page */
+
+
+.main-div {
+  background-color: #CCFFFF;
+  width: 1200px
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  color: #003300;
+}
+.main-page {
+  margin-left: 45px;
+
+}
