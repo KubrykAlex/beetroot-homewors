@@ -23,6 +23,15 @@ body {
     margin-bottom: 40px;
 }
 
+.to-main-page {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;   
+    color: #003399;
+    text-align: right
+}
+
 .about-position {
     font-style: normal;
     font-weight: 700;
