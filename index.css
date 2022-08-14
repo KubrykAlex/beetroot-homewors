@@ -1,0 +1,59 @@
+:root {
+  --color-font-base: #000000
+}
+
+/* * body */
+
+body {
+  background-color: #e5e5e5;
+}
+
+/* Main page */
+
+.main-div {
+  background-color: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  width: 1200px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: var(--color-font-base);
+  margin-bottom: 25px;
+}
+.main-page {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: var(--color-font-base);
+  padding-left: 25px;
+}
+
+.lesson-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.lesson-list {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-font-base);
+  margin-bottom: 10px;
+}
+
+.lesson-theme {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
