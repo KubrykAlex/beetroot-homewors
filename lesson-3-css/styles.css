@@ -12,6 +12,33 @@ body {
   background-color: #e5e5e5;
 }
 
+a {
+  text-decoration: none;
+  display: flex;
+}
+a:hover {
+  color: var(--c-link-hover);
+}
+
+/* to main page */
+
+.to-back {
+  
+}
+
+.to-back-nav {
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  color: #fb6d3a;
+}
+
+.to-back-list {
+  list-style: none;
+}
+
 /* main styles */
 
 .main {
