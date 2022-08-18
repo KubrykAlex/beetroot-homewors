@@ -1,0 +1,85 @@
+:root {
+  --c-black: #070707;
+  --c-gray: #828282;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+/* * Navigation */
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid red;
+}
+
+.navigation {
+
+}
+
+.navigation-item,
+.navigation-home {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.navigation-item {
+  color: var(--c-gray);
+}
+
+.line {
+  color: var(--c-gray);
+  margin-top: 25px;
+}
+
+.banner-name {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: var(--c-black);
+  margin-top: 60px;
+}
+
+.banner-img-block {
+  width: 100%;
+  margin-top: 40px;
+}
+
+
+/* *About me */
+
+.about-me {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  color: var(--c-black);
+  padding-top: 100px;
+}
+
+.about-me-text {
+
+}

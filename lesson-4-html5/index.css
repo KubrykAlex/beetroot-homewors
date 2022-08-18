@@ -1,0 +1,71 @@
+.header-wrapper {
+  padding: 20px;
+}
+
+/* * Logo */
+
+.logo {
+  display: inline-block;
+}
+
+/* *Navigation */
+.navigation {
+display: inline-block;
+margin-left: 100px;
+}
+
+.navigation-list {
+list-style: none;
+}
+
+.navigation-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation-item:last-child {
+  margin-right: 0px;
+}
+
+/* Audio */
+.audio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-music {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* * Article */
+
+.article {
+  margin-top: 20px;
+}
+
+.article-data {
+  text-align: center;
+}
+
+/* *Video block */
+
+.video-block-title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.video-title {
+  margin-top: 20px;
+}
+
+.video-iframe {
+  text-align: center;
+}
+
+/* * Footer */
+
+.footer-wrapper {
+  margin-top: 50px;
+  border-top: 2px solid var(--c-text);
+}

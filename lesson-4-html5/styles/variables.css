@@ -1,0 +1,12 @@
+:root {
+  /* * Colors */
+  --c-black: #000;
+  --c-white: #fff;
+  --с-main: #EAD39C;
+  --c-text: #662225;
+  --c-attention: #B51D0A;
+  --c-link-hover: #0d7e00;
+  --c-link: #ae5f2a;
+  /* *Fonts */
+  --f-base: 14px;
+}
