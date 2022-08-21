@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Figma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,20 +20,33 @@
     />
   </head>
   <body>
+    <!-- *Header -->
     <header>
       <nav class="container navigation">
         <ul>
-          <li class="navigation-home">Home</li>
-          <li class="navigation-item">About me</li>
-          <li class="navigation-item">Skills</li>
-          <li class="navigation-item">Portfolio</li>
-          <li class="navigation-item">Contacts</li>
+          <li class="navigation-item">
+            <a href="./pages/home/Home.html">Home</a>
+          </li>
+          <li class="navigation-item">
+            <a href="./pages/about-me/about-me.html">About me</a>
+          </li>
+          <li class="navigation-item">
+            <a href="./pages/skills/skills.html">Skills</a>
+          </li>
+          <li class="navigation-item">
+            <a href="./pages/portfolio/portfolio.html">Portfolio</a>
+          </li>
+          <li class="navigation-item">
+            <a href="./pages/contacts/contacts.html">Contacts</a>
+          </li>
+          <li class="navigation-item">
+            <a href="../index.html">To main page</a>
+          </li>
         </ul>
       </nav>
-
-      <hr class="line" />
     </header>
-    
+
+    <!-- * Banner -->
     <div class="banner">
       <div class="container">
         <h1 class="banner-name">Denys Novik</h1>
@@ -36,11 +55,25 @@
         </div>
       </div>
     </div>
+    <!-- *About me -->
+    <section class="about container">
+      <div class="about-block">
+        <h3 class="about-me">About me</h3>
 
-    <div class="about">
-      <h3 class="about-me">About me</h3>
-
-      <p class="about-me-text"></p>
-    </div>
+        <div class="about-me-punkt">
+          <p class="about-me-item">
+            Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design
+            and everything connected with it.
+          </p>
+          <p class="about-me-item">
+            'm studying at courses "Web and mobile design interfaces" in
+            IT-Academy.
+          </p>
+          <p class="about-me-item">
+            Ready to implement excellent projects with wonderful people.
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

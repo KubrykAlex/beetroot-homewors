@@ -9,7 +9,7 @@
 }
 
 body {
-
+  font-family: "Open Sans";
 }
 
 h1,
@@ -18,7 +18,19 @@ h3,
 h4,
 h5,
 h6 {
+  padding: 0;
+  margin: 0;
 }
+
+a {
+  text-decoration: none;
+  color: var(--c-gray);
+}
+
+a:hover {
+  color: var(--c-black);
+}
+
 /* * Navigation */
 
 .container {
@@ -27,16 +39,17 @@ h6 {
   max-width: 1000px;
   padding-left: 15px;
   padding-right: 15px;
-  border: 1px solid red;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  /* border: 1px solid red; */
 }
 
 .navigation {
-
+  text-align: center;
+  border-bottom: 1px solid var(--c-gray);
 }
 
-.navigation-item,
-.navigation-home {
-  font-family: "Open Sans";
+.navigation-item {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -48,13 +61,9 @@ h6 {
   color: var(--c-gray);
 }
 
-.line {
-  color: var(--c-gray);
-  margin-top: 25px;
-}
+/* * Banner */
 
 .banner-name {
-  font-family: "Open Sans";
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
@@ -65,21 +74,40 @@ h6 {
 .banner-img-block {
   width: 100%;
   margin-top: 40px;
+  margin-bottom: 100px;
 }
-
 
 /* *About me */
 
+.about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #f6f6f6;
+}
+
 .about-me {
-  font-family: 'Open Sans';
   font-weight: 700;
   font-size: 34px;
   line-height: 46px;
   text-align: center;
   color: var(--c-black);
-  padding-top: 100px;
 }
 
-.about-me-text {
+.about-me-punkt {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 480px;
+  margin-top: 30px;
+}
 
+.about-me-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-me-item:last-child {
+  margin-bottom: 0;
 }
