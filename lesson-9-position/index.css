@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 1px solid red;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--c-black);
+  white-space: nowrap;
+}
+.panel-item {
+  color: white;
+}
+
+.app {
+  background-color: var(--c-back);
+  height: 100vh;
+}
+
+.block {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* * Line */
+
+.line {
+  height: 6px;
+  width: 55%;
+  background-color: var(--c-grey);
+  position: absolute;
+  transition: all 0.8s ease-in;
+}
+
+.line--45 {
+  transform: rotate(45deg);
+}
+
+.line--90 {
+  transform: rotate(90deg);
+}
+
+.line--135 {
+  transform: rotate(-45deg);
+}
+
+/* * Circle */
+.circle {
+  width: calc(2 * var(--r-small));
+  height: calc(2 * var(--r-small));
+  /* border-radius: var(--r-border); */
+  background-color: var(--c-red);
+  position: var(--pos-absolute);
+  top: var(--r-small);
+  left: calc(50% - var(--r-small));
+  transition: 0.6s cubic-bezier(0.14, 1.72, 0.89, 0);
+}
+
+.circle-main {
+  width: calc(2 * var(--r-main));
+  height: calc(2 * var(--r-main));
+  background-color: var(--c-yellow);
+  top: calc(50% - var(--r-main));
+  left: calc(50% - var(--r-main));
+  transition: 2s cubic-bezier(.17,.67,.35,.98);
+}
+
+/* Circle small */
+
+.circle-right {
+  top: calc(50% - var(--r-small));
+  right: var(--r-small);
+  left: auto;
+}
+
+.circle-bottom {
+  top: auto;
+  bottom: var(--r-small);
+}
+
+.circle-left {
+  top: calc(50% - var(--r-small));
+  left: var(--r-small);
+}
+
+/* Circle big */
+
+.circle--big {
+  width: calc(2 * var(--r-big));
+  height: calc(2 * var(--r-big));
+}
+
+.circle--top-right {
+  top: var(--r-big);
+  left: auto;
+  right: var(--r-big);
+}
+
+.circle--bottom-right {
+  top: auto;
+  bottom: var(--r-big);
+  left: auto;
+  right: var(--r-big);
+}
+
+.circle--bottom-left {
+  top: auto;
+  bottom: var(--r-big);
+  left: var(--r-big);
+}
+
+.circle--top-left {
+  top: var(--r-big);
+  left: var(--r-big);
+}
+
+/* * Hover */
+/* Hover maim */
+
+.circle-main:hover + div.block {
+  transform: rotate(360deg);
+}
+
+/* Circle small hover */
+
+.circle-top:hover {
+  transform: translate(0, var(--r-small));
+}
+
+.circle-right:hover {
+  transform: translate(calc(var(--r-small) - var(--r-small) - var(--r-small)), 0);
+}
+.circle-bottom:hover {
+  transform: translate(0, calc(var(--r-small) - var(--r-small) - var(--r-small)));
+}
+.circle-left:hover {
+  transform: translate(var(--r-small), 0);
+}
+
+/* Circle big hover */
+
+.circle--top-right:hover {
+  transform: translate(calc(calc(var(--r-big) / 1.75) - calc(var(--r-big) / 1.75) - calc(var(--r-big) / 1.75)), 40px);
+}
+
+.circle--bottom-right:hover {
+  transform: translate(calc(calc(var(--r-big) / 1.75) - calc(var(--r-big) / 1.75) - calc(var(--r-big) / 1.75)), calc(calc(var(--r-big) / 1.75) - calc(var(--r-big) / 1.75) - calc(var(--r-big) / 1.75)));
+}
+.circle--bottom-left:hover {
+  transform: translate(calc(var(--r-big) / 1.75), calc(calc(var(--r-big) / 1.75) - calc(var(--r-big) / 1.75) - calc(var(--r-big) / 1.75)));
+}
+.circle--top-left:hover {
+  transform: translate(calc(var(--r-big) / 1.75), calc(var(--r-big) / 1.75));
+}

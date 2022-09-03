@@ -1,0 +1,15 @@
+:root {
+  --c-grey: #808391;
+  --c-red: #FF545B;
+  --c-yellow: #FFCF6D;
+  --c-back: #323335;
+  --r-border: 50%;
+  /* Position */
+  --pos-absolute: absolute;
+  /* Radius small circle */
+  --r-small: 50px;
+  /* Radius big circle */
+  --r-big: 70px;
+  /* Radius main circle */
+  --r-main: 100px;
+}

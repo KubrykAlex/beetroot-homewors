@@ -23,7 +23,7 @@ a:hover {
 /* to main page */
 
 .to-back {
-  
+  display: inline-block;
 }
 
 .to-back-nav {

@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid red; */
+}
+
+/* * {
+  transition: all 0.1s ease-in;
+} */
+
+body {
+  background-color: var(--c-main);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--c-black);
+  white-space: nowrap;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: var(--c-white);
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* * Logo */
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  color: var(--c-dblue);
+  font-weight: 800;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+
+.header-logo:hover span {
+  color: var(--c-orange);
+  transition: all 0.1s ease-in;
+}
+
+/* * Navigation */
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+}
+
+.navigation-item {
+  margin-right: 10px;
+}
+
+.navigation-item:last-child {
+  margin-right: 0;
+}
+.navigation-link {
+  padding: 5px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.navigation-link:hover {
+  color: var(--c-orange);
+  transition: all 0.1s ease-in;
+}
+
+/* * Buttons */
+
+.button {
+  border: none;
+  border: 1px solid var(--c-gray);
+  border-radius: 4px;
+  background-color: var(--c-white);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  height: 46px;
+  align-items: center;
+  padding: 0 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: var(--c-gray);
+  transition: all 0.1s ease-in;
+}
+
+.button--orange {
+background-color: var(--c-orange);
+border-color: var(--c-orange);
+color: var(--c-white);
+}
+
+.button--orange:hover {
+  opacity: 0.8;
+  background-color: var(--c-orange);
+}
+
+.header-buttons {
+  display: flex;
+}
+
+.header-button {
+  margin-right: 30px;
+}
+
+.header-button:last-child {
+  margin-right: 0;
+}
