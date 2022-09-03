@@ -51,7 +51,6 @@ a {
 .main-board {
   border: 15px solid var(--c-darkblue);
   background-color: var(--c-main-blue);
-  height: 100vh;
 }
 
 .weather {
