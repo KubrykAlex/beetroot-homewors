@@ -44,6 +44,7 @@ a {
   padding-bottom: 15px;
 }
 
+/* * Header */
 /* * Logo */
 
 .header-logo {
@@ -115,9 +116,9 @@ a {
 }
 
 .button--orange {
-background-color: var(--c-orange);
-border-color: var(--c-orange);
-color: var(--c-white);
+  background-color: var(--c-orange);
+  border-color: var(--c-orange);
+  color: var(--c-white);
 }
 
 .button--orange:hover {
@@ -135,4 +136,92 @@ color: var(--c-white);
 
 .header-button:last-child {
   margin-right: 0;
+}
+
+/* * Banner */
+
+.banner-wrapper {
+  display: flex;
+  padding-top: 100px;
+}
+
+.banner-title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: var(--c-black);
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.banner-text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--c-ligt-black);
+  margin-bottom: 20px;
+}
+
+/* * Tools block */
+
+.tools-wrapper {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 70px;
+  position: relative;
+  background-image: url(./assets/images/tools-bg.png);
+  background-size: contain;
+  background-size: 100% 100%;
+}
+
+.tools-header {
+  width: 550px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: var(--c-black);
+}
+
+.tools-list {
+  list-style: none;
+  display: flex;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+
+.item-title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: var(--c-black);
+  margin-top: 30px;
+}
+
+.tools-item {
+  margin-right: 30px;
+}
+
+.tools-item:last-child {
+  margin-right: 0;
+}
+
+.item-text {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--c-black);
+  margin-top: 16px;
+}
+
+.tools-button {
+  margin-top: 70px;
 }
