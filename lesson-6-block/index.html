@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+    <!-- * Styles -->
+    <!-- Normalize -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <!-- main -->
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Block</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- Back to main -->
+      <div class="panel">
+        <div class="panel-wrapper">
+          <nav class="panel-nav">
+            <ul class="panel-list">
+              <li class="panel-item">
+                <a href="../index.html">На головну стрінку</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- Main board -->
+      <div class="main-board">
+        <div class="weather">
+          <span class="weather-text"> CSS Weather Forecast </span>
+        </div>
+        <!-- * Weatger board -->
+        <div class="board-wrapper">
+          <div class="weather-board">
+            <ul class="weather-list">
+              <li id="lisbon" class="weather-item midl">
+                <h4 class="weather-item-text">Lisbon</h4>
+                <span class="weather-grad">21°C</span>
+                <i><img src="./img/icon1.png" alt="sun"></i>
+              </li>
+              <li id="paris" class="weather-item small">
+                <h4 class="weather-item-text">Paris</h4>
+                <span class="weather-grad">11°C</span>
+                <i><img src="./img/icon2.png" alt="sun"></i>
+              </li>
+              <li id="belgrade" class="weather-item small">
+                <h4 class="weather-item-text">Belgrade</h4>
+                <span class="weather-grad">15°C</span>
+                <i><img src="./img/icon3.png" alt="sun"></i>
+              </li>
+              <li id="venice" class="weather-item small">
+                <h4 class="weather-item-text">Venice</h4>
+                <span class="weather-grad">21°C</span>
+                <i><img src="./img/icon4.png" alt="sun"></i>
+              </li>
+              <li id="tel-avive" class="weather-item small">
+                <h4 class="weather-item-text">Tel-Avive</h4>
+                <span class="weather-grad">32°C</span>
+                <i><img src="./img/icon5.png" alt="sun"></i>
+              </li>
+              <li id="cair" class="weather-item small">
+                <h4 class="weather-item-text">Cair</h4>
+                <span class="weather-grad">21°C</span>
+                <i><img src="./img/icon6.png" alt="sun"></i>
+              </li>
+              <li id="new-york" class="weather-item small">
+                <h4 class="weather-item-text">New-York</h4>
+                <span class="weather-grad">17°C</span>
+                <i><img src="./img/icon7.png" alt="sun"></i>
+              </li>
+              <li id="new-delhi" class="weather-item small">
+                <h4 class="weather-item-text">New-Delhi</h4>
+                <span class="weather-grad">17°C</span>
+                <i><img src="./img/icon8.png" alt="sun"></i>
+              </li>
+              <li id="san-francisco" class="weather-item midl">
+                <h4 class="weather-item-text">San-Francisco</h4>
+                <span class="weather-grad">15°C</span>
+                <i><img src="./img/icon9.png" alt="sun"></i>
+              </li>
+              <li id="tokyo" class="weather-item small">
+                <h4 class="weather-item-text">Tokyo</h4>
+                <span class="weather-grad">8°C</span>
+                <i><img src="./img/icon10.png" alt="sun"></i>
+              </li>
+              <li id="sydney" class="weather-item">
+                <h4 class="weather-item-text">Sydney</h4>
+                <span class="weather-grad">25°C</span>
+                <i><img src="./img/icon11.png" alt="sun"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="nice-day-wrapper">
+          <div class="nice-day">
+            Have a nice day and don't forget umbrella if you are in New Delhi
+            now!
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,27 @@
+:root {
+  /* * Color */
+  --c-black: #000;
+  --c-white: #fff;
+  --c-main-blue: #2B81AC;
+  --c-darkblue: #045a85;
+
+  /* Blocks */
+  --c-blue: #3399cc;
+  --с-turquoise: #33cccc;
+  --c-lilac: #996699;
+  --c-red: #c24747;
+  --c-orange: #e2674a;
+  --c-yellow: #ffcc66;
+  --c-salat: #99cc99;
+  --c-marsh: #669999;
+  --с-pink: #cc6699;
+  --c-green: #339966;
+  --с-fiolet: #666699;
+
+  /* Font */
+
+  --f-main: 14px;
+  --f-inblock: 22px;
+  --f-info: 16px;
+
+}
