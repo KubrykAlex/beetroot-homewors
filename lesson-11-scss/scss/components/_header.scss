@@ -1,0 +1,39 @@
+.header {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+
+  &__wrapper {
+    width: 100%;
+    max-width: 450px;
+    border-bottom: 1px solid $c-orang;
+    padding-bottom: 50px;
+    padding-top: 120px;
+    text-align: center;
+    color: $c-white;
+  }
+
+  &__subtitle {
+    font-size: em(18);
+    font-weight: 800;
+    font-family: $ff-base;
+    line-height: 24px;
+    color: $c-grey;
+  }
+
+  &__title {
+    font-weight: 900;
+    font-size: em(60);
+    line-height: 66px;
+    text-transform: uppercase;
+    color: $c-orang;
+  }
+
+  &__icon {
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    background-color: $c-white;
+  }
+}

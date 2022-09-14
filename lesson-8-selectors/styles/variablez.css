@@ -1,0 +1,15 @@
+:root {
+  /* *Colors */
+
+  --c-black: #000;
+  --c-white: #fff;
+  --c-orange: #ff8984;
+  --c-grey: #4a4f56;
+  --c-black-grey: #3b3f45;
+  --c-darck-grey: #7a7593;
+  --c-light-grey: #88839e;
+  --c-grey-grey: #625E77;
+
+  /* *Fonts */
+  --ff-roboto: "Roboto", sans-serif;
+}

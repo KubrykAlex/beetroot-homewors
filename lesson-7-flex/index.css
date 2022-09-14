@@ -12,6 +12,11 @@
 body {
   background-color: var(--c-main);
 }
+
+.app {
+  /* background-color: var(--c-white); */
+}
+
 h1,
 h2,
 h3,
@@ -140,9 +145,10 @@ a {
 
 /* * Banner */
 
+
 .banner-wrapper {
   display: flex;
-  padding-top: 100px;
+  margin-top: 100px;
 }
 
 .banner-title {
