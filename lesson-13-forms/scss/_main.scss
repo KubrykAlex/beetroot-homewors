@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  // border: 1px solid red;
+}
+
+body {
+  font-family: $ff-base;
+  font-size: $fs-base + px;
+  background-color: $c-white-light;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+// * Forms
+
+.app {
+  display: flex;
+  padding-top: 50px;
+}
+
+.email-coment {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: $c-grey;
+  margin-bottom: 20px;
+}
+
+

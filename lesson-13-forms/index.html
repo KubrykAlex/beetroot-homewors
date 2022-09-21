@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <div class="app">
+
+      <!-- * Account -->
+      <form action="" method="get" class="account">
+        <div class="account__wrapper">
+          <div class="account__head">            
+            <!-- Account -->
+            <h2 class="account__title">Create an Account</h2>            
+          </div>
+
+          <!-- Name block -->
+          <div class="account__name">
+            <label class="account__item">
+              <div class="account__text">
+                First Name
+              </div>
+              <input name="firstname" type="text" class="account__input">
+            </label>
+            <label class="account__item">
+              <div class="account__text">
+                Last Name
+              </div>
+              <input name="lastname" type="text" class="account__input">
+            </label>
+          </div>
+
+          <!-- Email block -->
+          <div class="account__mail">
+            <label class="account__item">
+              <div class="account__text">
+                E-mail
+              </div>
+              <input name="email" type="email" class="account__input">
+            </label>
+            <div class="email-coment">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+
+          <!-- Gender block -->
+
+          <div class="gender">
+            <label class="gender__item">
+              <input type="radio" name="gender" value="male" class="gender__input">
+              <span class="gender__name">Male</span>
+            </label>
+            <label class="gender__item">
+              <input type="radio" name="gender" value="female" class="gender__input">
+              <span class="gender__name">Female</span>
+            </label>
+          </div>
+
+          <!-- Country block -->
+
+          <div class="country">
+            <div class="account__name">
+              <label class="account__item">
+              <div class="account__text">
+                Country
+              </div>
+              <select name="country" class="account__input">
+                <option value="Ukraine">Ukraine</option>
+                <option value="Denmark">Denmark</option>
+                <option value="Estonia">Estonia</option>
+                <option value="Latvia">Latvia</option>
+                <option value="United_Kingdom">United Kingdom</option>
+                <option value="Poland">Poland</option>
+                <option value="Moldova">Moldova</option>
+                <option value="Slovakia">Slovakia</option>
+                <option value="Slovenia">Slovenia</option>
+                <option value="Germany">Germany</option>
+              </select>
+            </label>
+            <label class="account__item">
+              <div class="account__text">
+                City
+              </div>
+              <input name="city" type="text" class="account__input">
+            </label>
+          </div>
+        </div>
+
+        <!-- Button -->
+          <!-- Button full -->
+          <div class="buttons">
+            <button class="button button--full" type="button">
+              <span title="Sign In"> Sign Up</span>
+            </button>
+          </div>
+          <div class="terms">
+            <div class="terms__text">
+              By clicking the 'Sign Up' button, you confirm that you accept our <b> <a href="">Terms of Use</a> </b> and <b> <a href="">Privacy Policy</a> </b>.
+            </div>
+          </div>
+
+          <!-- Footer -->
+
+          <footer class="footer">
+            <div class="footer__wrapper">
+              <div class="footer__text">
+                Have an account?
+              </div>
+              <div class="footer__link">
+                <a href="#"> <b> Log In </b> </a>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </form>
+
+      <!-- * Profile -->
+
+      <form action="" method="get" class="profile">
+        <div class="profile__wrapper">
+          <div class="profile__head">
+            <h2>Profile</h2>
+          </div>
+        </div>
+
+        <!-- Photo -->
+        <div class="photo">
+          <div class="photo__image">
+            <img src="./assets/images/photo.jpeg" alt="">
+          </div>
+          <div class="photo__content">
+            <label class="photo__item">
+              <input type="file" class="photo__input-file">
+              <div class="photo__input"></div> 
+              <div class="photo__icon">
+                <img src="./assets/images/photo_cam.png" alt="">
+              </div>
+              <div class="photo__text">Up to 1 MB (300x300 px)</div>
+            </label>
+            <button type="reset" class="photo__button">
+              <img src="./assets/images/trash.png" alt="">
+            </button>
+          </div>
+        </div>
+
+        <!-- Name block -->
+
+        <div class="name">
+            <label class="name__item">
+              <div class="name__text">Name</div>
+              <input name="name" type="text" class="name__input">
+            </label>
+            <label class="name__item">
+              <div class="name__text">E-mail</div>
+              <input name="email" type="email" class="name__input">
+            </label>
+        </div>
+
+        <!-- Country block -->
+
+        <div class="name">
+          <label class="name__item">
+            <div class="name__text">
+              Country
+            </div>
+            <select name="country" class="name__input">
+              <option value="Ukraine">Ukraine</option>
+              <option value="Denmark">Denmark</option>
+              <option value="Estonia">Estonia</option>
+              <option value="Latvia">Latvia</option>
+              <option value="United_Kingdom">United Kingdom</option>
+              <option value="Poland">Poland</option>
+              <option value="Moldova">Moldova</option>
+              <option value="Slovakia">Slovakia</option>
+              <option value="Slovenia">Slovenia</option>
+              <option value="Germany">Germany</option>
+            </select>
+          </label>
+          <label class="name__item">
+            <div class="name__text">City</div>
+            <input name="city" type="text" class="name__input">
+          </label>
+      </div>
+
+      <!-- Phone block -->
+
+      <div class="name">
+        <label class="name__item">
+          <div class="name__text">Zip Code</div>
+          <input name="name" type="text" class="name__input">
+        </label>
+        <label class="name__item">
+          <div class="name__text">Phone Number</div>
+          <input name="phone" type="tel" class="name__input">
+        </label>
+    </div>
+
+    <!-- Button Update -->
+
+    <div class="buttons">
+      <button class="button" type="button">
+        <span title="Sign In"> Sign Up</span>
+      </button>
+    </div>
+
+
+      </form>
+
+    </div>
+  </body>
+</html>

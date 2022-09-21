@@ -1,0 +1,122 @@
+// * Profile
+
+.profile {
+  width: 100%;
+  max-width: 630px;
+  border: 2px solid $c-ligt-gray;
+  margin: 0 auto;
+  background-color: $c-white;
+
+  &__wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  &__head {
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+.photo {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+  margin-bottom: 20px;
+
+  &__image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border-color: $c-grey;
+    margin-right: 20px;
+  }
+
+  &__input {
+    height: 40px;
+    padding-right: 35px;
+    border: 1px solid $c-ligt-gray;
+    border-radius: 6px;
+    width: 200px;
+
+    &-file {
+      display: none;
+    }
+  }
+
+  &__content {
+    display: flex;
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: $c-grey;
+    margin-top: 10px;
+  }
+
+  &__icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    top: 10px;
+  }
+
+  &__button {
+    height: fit-content;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+  }
+}
+
+// Name block
+
+.name {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  margin-bottom: 20px;
+
+  &__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: $c-light-black;
+  }
+
+  &__input {
+    height: 38px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border:1px solid $c-ligt-gray;
+    border-radius: 6px;
+  }
+
+  &__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+  }
+
+  &__item:last-child {
+    margin-right: 0;
+  }
+}

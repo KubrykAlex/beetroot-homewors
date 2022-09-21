@@ -1,0 +1,24 @@
+// *Footer
+
+.footer {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+
+  &__wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid $c-ligt-gray;
+    padding-top: 20px;
+  }
+
+  &__text {
+    margin-right: 20px;
+    color: $c-light-black;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
