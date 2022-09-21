@@ -1,0 +1,23 @@
+mixin slider()
+  .slider
+    .wrapper.slider__wrapper 
+
+      .slider__image 
+        .border.border__l-t
+        .border.border__r-t 
+        .border.border__l-b 
+        .border.border__r-b
+        img.photo(src="./assets/images/photo.png", alt="photo")
+
+      .slider__info 
+        .info__title
+          h2 Sahariar Kabir
+        .info__subtitle 
+        .info__social
+          link(rel="stylesheet", href="#")
+            img(src="./assets/images/facebook.png", alt="")
+          img(src="./assets/images/twitter.png", alt="")
+          img(src="./assets/images/google", alt="")
+        .info__text
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolores ipsa corporis tempora aperiam qui sint eos non, expedita, enim iusto impedit, voluptas excepturi amet sapiente porro consectetur praesentium illo?
+        +button.button

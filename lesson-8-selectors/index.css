@@ -17,7 +17,7 @@ ul {
 
 .wrapper {
   background-color: var(--c-black-grey);
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
   display: flex;
 }

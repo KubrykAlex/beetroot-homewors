@@ -135,8 +135,8 @@ a {
 /* * Hover */
 /* Hover maim */
 
-.circle-main:hover ~ .block {
-  transform: rotate(360deg);
+.circle-main:hover {
+  transform: rotate(160deg);
 }
 
 /* Circle small hover */

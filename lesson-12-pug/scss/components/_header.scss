@@ -1,0 +1,35 @@
+.header {
+  margin-bottom: 40px;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid orange;
+    max-width: 450px;
+    position: relative;
+  }
+
+  &__subtitle {
+    color: black;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    color: orange;
+    font-family: "Roboto";
+    font-weight: 900;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+
+  &__logo {
+    position: absolute;
+    top: auto;
+    bottom: -15px;
+    padding: 5px;
+    background-color: white;
+  }
+}
