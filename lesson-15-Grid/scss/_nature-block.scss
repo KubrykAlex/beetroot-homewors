@@ -51,11 +51,9 @@
       grid-area: h;
     }
 }
-  &__item:hover {
+  &__item:hover .icon {
     opacity: 1;
     cursor: url(../assets/images/svg/hand-point-up.png), default;
-  }
-  &__item:hover .icon {
     display: block;
   }
 }
