@@ -1,0 +1,61 @@
+// * Life block
+
+.nature {
+  text-align: center;
+  margin: 120px auto;
+  width: 1200px;
+
+  &__text {
+    margin-bottom: 80px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  &__list {
+    width: 100%;
+    grid-gap: 30px;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    "a s s"
+    "d d f"
+    "d d f"
+    "g g h"
+    ;
+  }
+
+  &__item {
+    background-size: cover;
+    transition: all 0.3s;
+    opacity: 0.85;
+    position: relative;
+
+    // Grid area
+    &-a {
+      grid-area: a;
+    }
+    &-s {
+      grid-area: s;
+    }
+    &-d {
+      grid-area: d;
+    }
+    &-f {
+      grid-area: f;
+    }
+    &-g {
+      grid-area: g;
+    }
+    &-h {
+      grid-area: h;
+    }
+}
+  &__item:hover {
+    opacity: 1;
+    cursor: url(../assets/images/svg/hand-point-up.png), default;
+  }
+  &__item:hover .icon {
+    display: block;
+  }
+}

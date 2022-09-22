@@ -1,0 +1,60 @@
+// * Arhi block
+
+.cities {
+  text-align: center;
+  margin: 120px auto;
+  width: 1200px;
+
+  &__text {
+    margin-bottom: 80px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  &__list {
+    width: 100%;
+    grid-gap: 30px;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    "q w w"
+    "e e r"
+    "t y y"
+    ;
+  }
+
+  &__item {
+    background-size: cover;
+    opacity: 0.85;
+    transition: all 0.3s;
+    position: relative;
+
+    // Grid aera
+    &-q {
+      grid-area: q;
+    }
+    &-w {
+      grid-area: w;
+    }
+    &-e {
+      grid-area: e;
+    }
+    &-r {
+      grid-area: r;
+    }
+    &-t {
+      grid-area: t;
+    }
+    &-y {
+      grid-area: y;
+    }
+}
+  &__item:hover {
+    opacity: 1;
+    cursor: url(../assets/images/svg/hand-point-up.png), default;
+  }
+  &__item:hover .icon {
+    display: block;
+  }
+}

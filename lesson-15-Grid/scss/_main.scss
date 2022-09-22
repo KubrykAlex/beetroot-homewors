@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  // border: 1px solid red;
+}
+
+body {
+  font-family: $ff-base;
+  font-size: $fs-base + px;
+  background-color: $c-grey;
+  cursor: url(../assets/images/svg/cursor-default.png), auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+// * Forms
+
+.app {
+  display: flex;
+  padding-top: 50px;
+}
+
+.wrapper {
+  background-color: $c-white;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
