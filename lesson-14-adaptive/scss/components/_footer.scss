@@ -1,0 +1,29 @@
+// * Footer
+
+.footer {
+  background-color: $c-light-grey;
+  padding: 70px;
+  align-items: center;
+  width: 100%;
+  position: relative;
+
+  &__wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__copyright {
+    position: absolute;
+    top: auto;
+    bottom: 30px;
+    left: calc(50% - 157px);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+  }
+}

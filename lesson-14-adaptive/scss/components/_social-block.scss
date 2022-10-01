@@ -1,0 +1,18 @@
+.social-block {
+  display: flex;
+  font-size: 24px;
+
+  &__item {
+    margin-right: 22px;
+    border: 1px solid $c-darck-grey;
+    padding: 12px;
+    line-height: 0;
+    color: $c-darck-grey;
+    cursor: pointer;
+    transition: $t-normal;
+  }
+  &__item:hover {
+    color: $c-white;
+    background-color: $c-darck-grey;
+  }
+}

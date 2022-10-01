@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  // border: 1px solid red;
+}
+
+body {
+  font-family: $f-lato;
+  font-size: $fs-base + px;
+  background-color: $c-darck-white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $c-black;
+}
+
+img {
+  width: 100%;
+}
+
+.wrapper {
+  background-color: $c-white;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+}

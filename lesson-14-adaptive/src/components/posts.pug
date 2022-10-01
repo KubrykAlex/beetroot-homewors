@@ -1,0 +1,41 @@
+//- * Posts block
+
+mixin posts ()
+  .wrapper.posts__wrapper 
+    .posts__title
+      span Latest Posts
+      span.view View All
+        <svg class="icon icon-arrow-1"><use xlink:href="#icon-arrow-1"></use></svg>
+        
+    .posts__blocks
+      .posts__blocks-item
+        img(src="./assets/images/posts-1.jpg" alt="img")
+        .posts__blocks-signing 
+          span Interface Design
+          span 8 June, 2020
+        .posts__blocks-title 
+          h4 UX traffic light colours
+        .posts__blocks-text 
+          p UI has to make a huge visual difference between warning, an alert and a success.
+
+      .posts__blocks-item
+        img(src="./assets/images/posts-2.jpg" alt="img")
+        .posts__blocks-signing 
+          span Technology
+          span 6 May, 2020
+        .posts__blocks-title 
+          h4 Using UX Design to Build a Sustainable Future
+        .posts__blocks-text 
+          p UI has to make a huge visual difference between warning, an alert and a success.
+
+      .posts__blocks-item
+        img(src="./assets/images/posts-3.jpg" alt="img")
+        .posts__blocks-signing 
+          span Visual Design
+          span 8 June, 2020
+        .posts__blocks-title 
+          h4 Creativity vs. UX
+        .posts__blocks-text 
+          p Is it possible to create a delightful user experience without following best UX practices?
+
+

@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 a {
@@ -66,7 +66,7 @@ a {
 .circle {
   width: calc(2 * var(--r-small));
   height: calc(2 * var(--r-small));
-  /* border-radius: var(--r-border); */
+  border-radius: var(--r-border);
   background-color: var(--c-red);
   position: var(--pos-absolute);
   top: var(--r-small);
@@ -81,6 +81,7 @@ a {
   top: calc(50% - var(--r-main));
   left: calc(50% - var(--r-main));
   transition: 2s cubic-bezier(.17,.67,.35,.98);
+  z-index: 1;
 }
 
 /* Circle small */
@@ -135,8 +136,8 @@ a {
 /* * Hover */
 /* Hover maim */
 
-.circle-main:hover {
-  transform: rotate(160deg);
+.circle-main:hover ~ .block{
+  transform: rotate(960deg);
 }
 
 /* Circle small hover */

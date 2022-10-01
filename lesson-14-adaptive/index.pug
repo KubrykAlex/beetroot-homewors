@@ -1,0 +1,24 @@
+include ./src/components/index
+include ./src/elements/index
+
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="./index.css")
+    title Adaptive
+  body 
+    //- SVG
+    include ./assets/svg/icons.svg
+    //- APP
+    .app
+      .wrapper
+        +header
+        +banner
+        +blog
+        +posts
+        +popular
+        +footer
+    script(src="./index.js")

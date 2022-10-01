@@ -1,0 +1,15 @@
+// * Icons
+
+  .icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+
+    &-arrow-1 {
+      margin-left: 20px;
+      color: $c-grey;
+    }
+  }

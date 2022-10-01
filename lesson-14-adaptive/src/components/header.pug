@@ -1,0 +1,13 @@
+//- * Header
+
+mixin header()
+  header.wrapper.header 
+    .header__wrapper
+      .header__logo
+        a.logo(href="./index.html") 
+          img(src="./assets/images/logo.png" alt="")
+      .header__menu
+        +navigation()
+        .header__search
+          <svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg>
+        +burger

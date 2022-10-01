@@ -1,0 +1,46 @@
+// * Burger
+
+.burger {
+  margin-left: 40px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding: 10px 8px;
+  border-radius: 5px;
+  // display: none;
+
+  @include media('<=1024') {
+    display: static;
+  }
+
+  &:hover {
+    background-color: rgba($c-darck-grey, 0.1);
+  }
+
+  &--active {
+    & > .burger__line {
+      transform: rotate(45deg) translateY(15px);
+
+      &:nth-child(2) {
+        opacity: 0;
+      }
+
+      &:last-child {
+        transform: rotate(-45deg) translateY(-15px);
+      }
+    }
+  }
+
+
+  &__line {
+    height: 2px;
+    width: 34px;
+    margin-bottom: 8px;
+    background-color: $c-black;
+    display: block;
+    transition: all, 0.35s;
+  }
+  &__line:last-child{
+    margin-bottom: 0;
+  }
+}

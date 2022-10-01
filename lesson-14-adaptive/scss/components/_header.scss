@@ -1,0 +1,40 @@
+// * Header
+
+.header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  background-color: $c-white;
+  z-index: 1;
+  box-shadow: 6px 6px 20px rgba($c-black, 0.2);
+
+  &__wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1170px;
+  }
+
+  &__logo {
+    min-width: 140px;
+    // height: fit-content;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &__search {
+    margin-left: 80px;
+  }
+}
+
+.logo {
+  padding: 5px;
+}
