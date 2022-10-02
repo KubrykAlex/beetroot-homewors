@@ -23,5 +23,30 @@
       left: 30px;
       width: 500px;
     }
+    @include media("<=tablet") {
+      font-size: 36px;
+      line-height: 50px;
+      top: 30px;
+      left: 30px;
+      width: 320px;
+      font-size: 30px;
+      line-height: 50px;
+      letter-spacing: 0.05em;
+    }
+  }
+
+  &__img {
+
+    &--mobile {
+      display: none;
+      @include media("<=phone") {
+        display: block;
+      }
+    }
+    &--base {
+      @include media("<=phone") {
+        display: none;
+      }
+    }
   }
 }

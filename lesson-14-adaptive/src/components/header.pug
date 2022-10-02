@@ -5,7 +5,7 @@ mixin header()
     .header__wrapper
       .header__logo
         a.logo(href="./index.html") 
-          img(src="./assets/images/logo.png" alt="logo")
+          <svg class="icon icon-Logo"><use xlink:href="#icon-Logo"></use></svg>
       .header__menu
         .header__navigation#js-header-navigation
           +navigation()
