@@ -14,6 +14,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @include media('<=tablet') {
+      flex-direction: column;
+    }
+  }
+
+  &__contacts {
+    @include media('<=tablet') {
+      margin-bottom: 20px;
+    }
   }
 
   &__copyright {

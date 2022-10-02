@@ -7,9 +7,10 @@
   border: none;
   padding: 10px 8px;
   border-radius: 5px;
-  // display: none;
+  z-index: 901;
+  position: relative;
 
-  @include media('<=1024') {
+  @include media('<=desktop') {
     display: static;
   }
 

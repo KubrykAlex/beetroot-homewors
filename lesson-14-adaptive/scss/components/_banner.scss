@@ -15,5 +15,13 @@
     top: 100px;
     left: 135px;
     width: 770px;
+
+    @include media("<=desktop") {
+      font-size: 36px;
+      line-height: 50px;
+      top: 30px;
+      left: 30px;
+      width: 500px;
+    }
   }
 }

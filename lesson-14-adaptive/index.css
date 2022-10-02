@@ -401,8 +401,21 @@ img {
   display: flex;
   align-items: center;
 }
+@media (max-width: 1024px) {
+  .header__navigation {
+    display: none;
+  }
+}
 .header__search {
   margin-left: 80px;
+}
+.header__burger {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .header__burger {
+    display: block;
+  }
 }
 
 .logo {
@@ -425,6 +438,15 @@ img {
   left: 135px;
   width: 770px;
 }
+@media (max-width: 1024px) {
+  .banner__title {
+    font-size: 36px;
+    line-height: 50px;
+    top: 30px;
+    left: 30px;
+    width: 500px;
+  }
+}
 
 .blog__wrapper {
   max-width: 1170px;
@@ -442,6 +464,11 @@ img {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 768px) {
+  .blog__info {
+    grid-template-columns: 1fr;
+  }
 }
 
 .info {
@@ -490,6 +517,11 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
+}
+@media (max-width: 768px) {
+  .posts__blocks {
+    grid-template-columns: 1fr;
+  }
 }
 .posts__blocks-item {
   display: flex;
@@ -545,6 +577,16 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 768px) {
+  .footer__wrapper {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .footer__contacts {
+    margin-bottom: 20px;
+  }
+}
 .footer__copyright {
   position: absolute;
   top: auto;
@@ -575,6 +617,11 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
+}
+@media (max-width: 768px) {
+  .popular__blocks {
+    grid-template-columns: 1fr;
+  }
 }
 .popular__blocks-item {
   display: flex;
@@ -645,8 +692,10 @@ img {
   border: none;
   padding: 10px 8px;
   border-radius: 5px;
+  z-index: 901;
+  position: relative;
 }
-@media (max-width: 1024) {
+@media (max-width: 1024px) {
   .burger {
     display: static;
   }
@@ -685,6 +734,7 @@ img {
 
 .navigation {
   background-color: #FFFFFF;
+  z-index: 900;
 }
 @media (max-width: 1024px) {
   .navigation {
@@ -705,13 +755,31 @@ img {
   background-color: #FFFFFF;
   height: 100%;
 }
+@media (max-width: 1024px) {
+  .navigation__list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .navigation__item {
   margin-right: 40px;
   border-bottom: 1px solid #FFFFFF;
   align-items: center;
 }
+@media (max-width: 1024px) {
+  .navigation__item {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+}
 .navigation__item:last-child {
   margin-right: 0;
+}
+@media (max-width: 1024px) {
+  .navigation__item:last-child {
+    margin-bottom: 0;
+  }
 }
 .navigation__item:hover {
   border-bottom: 1px solid #000000;

@@ -30,9 +30,27 @@
     align-items: center;
   }
 
+  &__navigation {
+    @include media("<=desktop") {
+      display: none;
+    }
+
+    // &--show {
+    //   display: block;
+    // }
+  }
+
   &__search {
     margin-left: 80px;
   }
+
+  &__burger {
+    display: none;
+
+    @include media("<=desktop") {
+      display: block;
+  }
+}
 }
 
 .logo {
